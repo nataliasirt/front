@@ -14,16 +14,16 @@ html {
 
 :root {
   /* colors */
-  --primary-50: #e0fcff;
-  --primary-100: #bef8fd;
-  --primary-200: #87eaf2;
-  --primary-300: #54d1db;
-  --primary-400: #38bec9;
-  --primary-500: #2cb1bc;
-  --primary-600: #14919b;
-  --primary-700: #0e7c86;
-  --primary-800: #0a6c74;
-  --primary-900: #044e54;
+  --primary-50: #e8eef9;  /* Very light navy-tinted blue */
+  --primary-100: #c7d3ed; /* Light navy blue */
+  --primary-200: #a2b5df; /* Medium-light navy blue */
+  --primary-300: #7d97d0; /* Medium navy blue */
+  --primary-400: #617fc7; /* Slightly lighter navy */
+  --primary-500: #1a3c7d; /* Main lighter navy blue */
+  --primary-600: #16356f; /* Slightly darker navy */
+  --primary-700: #122d5e; /* Darker navy */
+  --primary-800: #0e254d; /* Very dark navy */
+  --primary-900: #0a1c3e; /* Deep navy */
 
   /* grey */
   --grey-50: #f8fafc;
@@ -170,7 +170,6 @@ ul {
   width: 100%;
   display: block;
   object-fit: cover;
-  border-radius: 15px; 
 }
 /* buttons */
 
@@ -330,4 +329,3 @@ button:disabled {
   background: #ffeeee;
   color: #d66a6a;
 }
-

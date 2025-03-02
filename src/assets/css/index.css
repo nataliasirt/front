@@ -170,6 +170,7 @@ ul {
   width: 100%;
   display: block;
   object-fit: cover;
+  border-radius: 15px; 
 }
 /* buttons */
 
@@ -329,3 +330,4 @@ button:disabled {
   background: #ffeeee;
   color: #d66a6a;
 }
+

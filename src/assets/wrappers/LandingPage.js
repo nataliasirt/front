@@ -42,6 +42,7 @@ const Wrapper = styled.section`
     display: inline-block;
     width: 150px; /* Adjusted size */
     height: auto; /* Maintain aspect ratio */
+    padding-top: 20px; 
   }
 
   @media (min-width: 992px) {

@@ -10,6 +10,12 @@ const Wrapper = styled.section`
     margin: 0 auto;
     padding: 2rem 0;
   }
+  .logo {
+    display: inline-block;
+    width: 100px; /* Adjusted size */
+    height: auto; /* Maintain aspect ratio */
+    padding-top: 20px; 
+  }
   @media (min-width: 992px) {
     .dashboard {
       grid-template-columns: auto 1fr;
@@ -17,6 +23,12 @@ const Wrapper = styled.section`
     .dashboard-page {
       width: 90%;
     }
+    .logo {
+    display: inline-block;
+    width: 100px; /* Adjusted size */
+    height: auto; /* Maintain aspect ratio */
+    padding-top: 20px; 
+  }
   }
 `;
 export default Wrapper;

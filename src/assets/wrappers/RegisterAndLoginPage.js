@@ -30,5 +30,11 @@ const Wrapper = styled.section`
     letter-spacing: var(--letter-spacing);
     margin-left: 0.25rem;
   }
+  .logo {
+    display: center;
+    width: 150px; /* Adjusted size */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 100px;
+  }
 `;
 export default Wrapper;
