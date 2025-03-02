@@ -12,15 +12,10 @@ const Landing = () => {
         {/* info */}
         <div className="info">
           <h1>
-            Travel <span>Tracker</span> app
+            Resolution <span>Tracker</span> app
           </h1>
           <p>
-            Welcome to Travel Tracker, where unforgettable adventures
-            begin. Whether you're dreaming of sun-kissed beaches, vibrant
-            cityscapes, or breathtaking mountain retreats, we make travel
-            effortless and extraordinary. Discover handpicked destinations,
-            expert tips, and seamless planning—all tailored to your wanderlust.
-            Start your journey today!
+          Welcome to Resolution Tracker, where your goals become reality. Whether you’re aiming for personal growth, healthier habits, or ambitious milestones, we make progress simple and motivating. Discover tailored tools, expert guidance, and seamless tracking—all designed to fuel your determination. Start shaping your future today!
           </p>
           <Link to="/register" className="btn register-link">
             Register

@@ -40,7 +40,7 @@ const Wrapper = styled.section`
   }
   .logo {
     display: inline-block;
-    width: 150px; /* Adjusted size */
+    width: 130px; /* Adjusted size */
     height: auto; /* Maintain aspect ratio */
     padding-top: 20px; 
   }
